@@ -9,8 +9,12 @@ Perpetual- cointred-ebooks
    //github.com/togetherwedomore/upgraded-rotary-phone/
 actions/workflows/storqese.iomain.yml)
 
-back
 
+try {
+  const transferRequest: TransferRequest = await PiNetworkClient.RequestTransfer(3.14, "Demo transfer request")
+} catch(err) {
+  // Technical problem (eg network failure). Please try again
+}
 }The Department of Veterans Affairs Needs To Adopt Blockchain - And Here's Why...
 Published on November 27, 2018
 }}}Author’s photo
